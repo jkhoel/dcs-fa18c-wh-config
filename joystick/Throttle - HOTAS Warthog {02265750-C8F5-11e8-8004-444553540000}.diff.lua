@@ -91,6 +91,16 @@ local diff = {
 		["a3026cd13"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.56,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 0.6,
+						["slider"] = false,
+					},
 					["key"] = "JOY_SLIDER1",
 				},
 			},
@@ -170,14 +180,6 @@ local diff = {
 			},
 			["name"] = "MASTER CAUTION Reset Button",
 		},
-		["d3013pnilunilcd5vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "Arresting Hook Handle - Cycle",
-		},
 		["d3014pnilunilcd23vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -193,6 +195,22 @@ local diff = {
 				},
 			},
 			["name"] = "Throttle Designator Controller - Depress",
+		},
+		["d3024pnilu3024cd13vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "Radar Elevation Control - Up",
+		},
+		["d3025pnilu3025cd13vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "Radar Elevation Control - Down",
 		},
 		["d3027pnilu3027cd13vd0.2vpnilvu0"] = {
 			["added"] = {
@@ -245,7 +263,7 @@ local diff = {
 		["d3035pnilu3035cd13vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Speed Brake Switch - EXTEND",
@@ -253,7 +271,7 @@ local diff = {
 		["d3035pnilu3035cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Speed Brake Switch - RETRACT/OFF",
@@ -306,6 +324,14 @@ local diff = {
 			},
 			["name"] = "Flashlight",
 		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Toggle goggles",
+		},
 		["d68pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -313,6 +339,38 @@ local diff = {
 				},
 			},
 			["name"] = "Landing Gear Control Handle - UP/DOWN",
+		},
+		["dnilp210u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UR",
+				},
+			},
+		},
+		["dnilp213u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UL",
+				},
+			},
+		},
+		["dnilp32u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+		},
+		["dnilp33u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
 		},
 		["dnilp34u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up slow",

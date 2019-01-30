@@ -190,11 +190,27 @@ local diff = {
 			},
 			["name"] = "Throttle Designator Controller - Right",
 		},
+		["dnilp210u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UR",
+				},
+			},
+		},
 		["dnilp212u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Down Left slow",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_DL",
+				},
+			},
+		},
+		["dnilp213u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
 		},
@@ -217,7 +233,7 @@ local diff = {
 		["dnilp3016u3016cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
+					["key"] = "JOY_BTN_POV1_L",
 				},
 			},
 			["name"] = "Trimmer Switch - LEFT WING DOWN",

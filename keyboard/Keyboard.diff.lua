@@ -152,6 +152,14 @@ local diff = {
 			},
 			["name"] = "UFC Keyboard Pushbutton - ENT",
 		},
+		["d3037pnilu3037cd13vd1vpnilvu0"] = {
+			["name"] = "ATC Engage/Disengage Switch",
+			["removed"] = {
+				[1] = {
+					["key"] = "T",
+				},
+			},
+		},
 		["d311pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Throttle (Left) - IDLE",
 			["removed"] = {
